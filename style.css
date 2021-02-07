@@ -2,6 +2,23 @@ body{
 	font-family: 'Open Sans',sans-serif;
 	background-color: black;
 }
+
+#history-list {
+    list-style-type: none;
+}
+
+li:last-child {
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(29,81,147,0.9023984593837535) 50%, rgba(0,0,0,1) 60%);
+}
+
+#result-history{
+    text-align: center;
+    margin: 150px auto;	
+    color: white;
+}
+
 #heading{
     text-align: center;
     margin: 20px auto;	
